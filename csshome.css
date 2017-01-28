@@ -64,7 +64,7 @@ body{
 	width: 100%;
 	font-family: 'Helvetica';
 }
-section1{
+section{
 	width: 100%;
 	height: 100%;
 }
@@ -75,22 +75,18 @@ section1{
 #servicos h1{
     margin-bottom: 90px;
 }
-section2{
-	width: 100%;
-	height: 100%;    
-}
 #portfolio{
     margin-bottom: 200px;
     margin-top: 200px;
     text-align: center;
 }
 
-section3{
-	width: 100%;
-	height: 100%;    
-}
 #contato{
     margin-bottom: 200px;
     margin-top: 200px;
     text-align: center;
+}
+.formcontato{
+	text-align: center;
+	margin: auto 80px;
 }
