@@ -4,7 +4,7 @@
 }	
 
 header{
-	background-image: url("img/lobo-lua1.jpg");
+	background-image: url("img/wolf.jpg");
 	height: 100%;
 	width: 100%;
 	position: relative;
@@ -17,7 +17,7 @@ header{
 	width: 100%;
 	margin: 0px;
 	position: relative;
-	background-color: #000;
+	background-color: transparent;
 }			
 .logomarca a{
 	display: inline-block;
@@ -49,7 +49,7 @@ header{
 	font-size:125%;
 }
 .introHome p{
-	color: gray;
+	color: #E6E6E6;
 	font-size: 20px;
 	margin-top: 20px;
     text-align: center;
@@ -69,7 +69,7 @@ header{
 /*fundo preto transparente*/
 .transparenciaFundo{
 	height: 100%;
-	background-color: rgba(0,0,0,0.3);
+	background-color: rgba(0, 0, 0, 0.7);
 }
 body{
 	height:100%;
@@ -78,10 +78,11 @@ body{
 }
 
 #servicos{
-    padding-bottom: 20%;
+    padding-bottom: 30%;
     padding-top: 7%;
-    background-color:#B0ADAD ;
-    color:#fff;
+    background-color: #fff;
+    color:#000;
+    background-size: 100%;
 }
 #servicos h1{
     padding-bottom: 40px;
