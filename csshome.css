@@ -89,9 +89,6 @@ body{
 }
 .col-md-4 p{
     font-size: 20px;
-    border-right-width: 1px;
-    border-right-style: solid;
-    border-right-color: #fff;
 }
 
 .col-md-4 h2 {
@@ -129,7 +126,7 @@ section{
     padding-left: 80px;
     padding-right: 80px;
     font-size: 20px;
-    background-color: darkgray;
+    background-color: #D8D8D8;
 
 }
 .btn-default{
