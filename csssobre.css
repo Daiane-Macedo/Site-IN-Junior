@@ -24,9 +24,9 @@ body{
     font-size: 50px;
 
 }
-#tituloapreentacao{
+#tituloapreentacao {
     padding-bottom: 60px;
-    padding-top: 100px;
+    padding-top: 30px;
 }
 #textoApresentacao{
 	margin-bottom: 90px;
@@ -38,7 +38,7 @@ body{
     border-right-style: none;
     border-right-color: #fff;
 }
-#principios{
-    padding-bottom: 400px;
-    padding-top: 500px;
+#principios {
+    padding-bottom: 200px;
+    padding-top: 0px;
 }
