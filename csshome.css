@@ -30,8 +30,6 @@ header{
 	float: right;
     padding-right: 30px;
     display: inline-block;
-
-
 }
 .navbarDireita li{
 	margin-right: 20px;
@@ -70,7 +68,7 @@ body{
 
 #servicos{
     padding-bottom: 230px;
-    padding-top: 210px;
+    padding-top: 160px;
     background-color: gray;
     color: white;
 
@@ -88,7 +86,7 @@ body{
 }
 #portfolio{
     padding-bottom: 265px;
-    padding-top: 230px;
+    padding-top: 210px;
     text-align: center;
     background-color: #fff;
 }
