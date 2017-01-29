@@ -29,8 +29,9 @@ body{
     padding-top: 30px;
 }
 #textoApresentacao{
-	margin-bottom: 90px;
+	margin-bottom: 40px;
 	font-size: 18px;
+    padding-top: 0;
 }
 .col-md-4 p {
 	font-size: 20px;
