@@ -28,7 +28,9 @@ header{
 .navbarDireita{
 	list-style: none;
 	float: right;
-    padding-right: 40px;
+    padding-right: 30px;
+    display: inline-block;
+
 
 }
 .navbarDireita li{
