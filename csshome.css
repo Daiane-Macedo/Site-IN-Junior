@@ -124,28 +124,16 @@ section{
     font-size: 50px;
 }
 .formcontato{
-    padding-bottom: 0px;
     padding-top: 120px;
     padding-left: 80px;
     padding-right: 80px;
     font-size: 20px;
     background-color: white;
+    margin-bottom: 20px;
 }
-
 .btn-default{
     width:  100%;
     height: 100%;
-}
-footer{
-	width: 100%;
-}
-#footer{
-	background-color: #ccc;
-	text-align: center;
-}
-#footer p{
-	margin: 10px auto;
-    padding-bottom: 30px;
 }
 .clear{
 	clear: both;

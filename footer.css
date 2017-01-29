@@ -9,11 +9,11 @@ body{
 footer{
 	width: 100%;
 }
-#footer{
+.footer{
 	background-color: #ccc;
 	text-align: center;
 }
-#footer p{
+.footer p{
 	margin: 10px auto;
 }
 .clear{
