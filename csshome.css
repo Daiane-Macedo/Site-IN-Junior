@@ -49,8 +49,8 @@ header{
 	font-size:125%;
 }
 .introHome p{
-	color: #D8D8D8;
-	font-size: 20px;
+	color: #E6E6E6;
+	font-size: 27px;
 	margin-top: 20px;
     text-align: center;
     float:center;
@@ -69,12 +69,12 @@ header{
 /*fundo preto transparente*/
 .transparenciaFundo{
 	height: 100%;
-	background-color: rgba(0,0,0,0.6);
+	background-color: rgba(0,0,0,0.5);
 }
 body{
 	height:100%;
 	width: 100%;
-	font-family: 'Helvetica';
+    font-family:'Corbel';
 }
 
 #servicos{
@@ -127,7 +127,7 @@ section{
     padding-left: 80px;
     padding-right: 80px;
     font-size: 20px;
-    background-color: white;
+    background-color: #fff;
     margin-bottom: 20px;
 }
 .btn-default{
