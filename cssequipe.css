@@ -9,8 +9,12 @@ header {
 #equipe h3{
     
 }
-#equipe{
-    padding-top: 90px;
-    padding-right:30px;
+#equipe {
+    padding-top: 50px;
+    padding-right: 30px;
     padding-bottom: 40px;
+}
+#textoApresentacao {
+    margin-bottom: 40px;
+    font-size: 18px;
 }
