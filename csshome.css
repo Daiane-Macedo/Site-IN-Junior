@@ -13,11 +13,11 @@ header{
 
 #navbarTopo{
 	padding-top: 20px; 
-	padding-bottom: 50px; 
+	padding-bottom: 45px; 
 	width: 100%;
 	margin: 0px;
 	position: relative;
-	background-color: black;
+	background-color: gray;
 }			
 .logomarca a{
 	display: inline-block;
@@ -28,21 +28,34 @@ header{
 .navbarDireita{
 	list-style: none;
 	float: right;
-    padding-right: 30px;
+    padding: 5px, 5px;
     display: inline-block;
+    margin-right: 20px;
 }
 .navbarDireita li{
-	margin-right: 20px;
-	font-size: 20px;
-	display: inline-block;
-	color:#fff;
+    display: inline-block;
+	text-decoration: none; 
 }
-
+.navbarDireita li a{
+	color:#fff;
+    font-size: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 22px;
+    padding-bottom: 24px;
+}
+.navbarDireita li a:hover{ /*Efeito hover no botão*/
+	background-color:#1503D0;
+	color: #000;
+    text-decoration:inherit;
+	font-size:125%;
+}
 .introHome p{
 	color: gray;
 	font-size: 20px;
 	margin-top: 20px;
     text-align: center;
+    float:center;
 }
 .introHome h1{
 	margin-top: 130px;
@@ -52,8 +65,8 @@ header{
 	width: 900px;
 	height: 500px;
     text-align: center;
-    margin-left: 23.7%;
-    margin-right: 30%;
+    margin-left: auto;
+    margin-right: auto;
 }
 /*fundo preto transparente*/
 .transparenciaFundo{
@@ -67,11 +80,10 @@ body{
 }
 
 #servicos{
-    padding-bottom: 230px;
-    padding-top: 160px;
-    background-color: gray;
-    color: white;
-
+    padding-bottom: 20%;
+    padding-top: 7%;
+    background-color:#B0ADAD ;
+    color:#fff;
 }
 #servicos h1{
     padding-bottom: 40px;
@@ -80,9 +92,13 @@ body{
 
 .col-md-4 {
     font-size: 20px;
+    border-right-width: 1px;
+    border-right-style: outset;
+    border-right-color: #fff;
 }
 .col-md-4 h2 {
     font-size: 35px;
+    
 }
 #portfolio{
     padding-bottom: 265px;
@@ -108,7 +124,6 @@ section{
     text-align: center;
     padding-bottom:50px;
     font-size: 50px;
-
 }
 .formcontato{
     padding-bottom: 0px;
