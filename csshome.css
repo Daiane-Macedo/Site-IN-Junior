@@ -17,7 +17,7 @@ header{
 	width: 100%;
 	margin: 0px;
 	position: relative;
-	background-color: gray;
+	background-color: #000;
 }			
 .logomarca a{
 	display: inline-block;
@@ -45,8 +45,6 @@ header{
     padding-bottom: 24px;
 }
 .navbarDireita li a:hover{ /*Efeito hover no botão*/
-	background-color:#1503D0;
-	color: #000;
     text-decoration:inherit;
 	font-size:125%;
 }
