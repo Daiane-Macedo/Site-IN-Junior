@@ -87,12 +87,8 @@ body{
     padding-bottom: 40px;
     font-size: 50px;
 }
-
 .col-md-4 {
     font-size: 20px;
-    border-right-width: 1px;
-    border-right-style: outset;
-    border-right-color: #fff;
 }
 .col-md-4 h2 {
     font-size: 35px;
