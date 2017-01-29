@@ -1,5 +1,5 @@
 header {
-    height: 70px;
+    height: 100px;
     width: 100%;
     background-size: 100% 100%;
 }
@@ -13,4 +13,18 @@ section{
 .transparenciaFundo {
     height: 70px;
     background-color: rgba(0,0,0,0.3);
+}
+.textoSobre{
+	width: 100%;
+	height: 100%;
+	padding-top: 50px;
+}
+#sobre{
+	background-image: url("img/lobo-lua.jpg");
+}
+#apresentacao{
+	margin-bottom: 60px;
+}
+#textoApresentacao{
+	margin-bottom: 60px;
 }
