@@ -1,7 +1,8 @@
 header {
-    height: 100px;
+    height: 0;
     width: 100%;
     background-size: 100% 100%;
+    background-image: none;
 }
 section{
 	width: 100%;
@@ -18,13 +19,18 @@ section{
 	width: 100%;
 	height: 100%;
 	padding-top: 50px;
+	background-color: rgba(0,0,0,0.8);
+	color: white;
 }
 #sobre{
+	margin-top: 60px;
 	background-image: url("img/lobo-lua.jpg");
+	background-size: cover;
 }
 #apresentacao{
 	margin-bottom: 60px;
 }
 #textoApresentacao{
 	margin-bottom: 60px;
+	font-size: 18px;
 }
