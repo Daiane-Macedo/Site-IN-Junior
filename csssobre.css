@@ -5,6 +5,9 @@ header {
     background-size:cover;
     background-image: url("img/perfil.jpg");
 }
+body{
+    background-color: #F2F2F2;
+}
 
 
 #sobre{

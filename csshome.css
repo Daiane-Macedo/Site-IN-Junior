@@ -80,7 +80,7 @@ body{
 #servicos{
     padding-bottom: 20%;
     padding-top: 7%;
-    background-color:#B0ADAD ;
+    background-image:url("img/servicos.jpg");
     color:#fff;
 }
 #servicos h1{
@@ -98,8 +98,9 @@ body{
     font-size: 35px;
 }
 #portfolio{
-    padding-bottom: 265px;
-    padding-top: 210px;
+    padding: inherit;
+    padding-bottom: 800px;
+    padding-top: 60px;
     text-align: center;
     background-color: #fff;
 }
@@ -123,12 +124,13 @@ section{
     font-size: 50px;
 }
 .formcontato{
-    padding-top: 120px;
+    padding-top: 30px;
+    padding-bottom: 110px;
     padding-left: 80px;
     padding-right: 80px;
     font-size: 20px;
-    background-color: #fff;
-    margin-bottom: 20px;
+    background-color: darkgray;
+
 }
 .btn-default{
     width:  100%;
