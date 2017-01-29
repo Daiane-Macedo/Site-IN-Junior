@@ -9,7 +9,6 @@
 		</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="csshome.css">
-    <link rel="stylesheet" href="w3.css">
     <link rel="stylesheet" href="footer.css">
 </head>
 <body>
@@ -59,23 +58,31 @@
 			</div>
     </section>
     <section>
-    <a name="potfolio"></a>
-	<div id="portfolio">
-        <div class="tituloportfolio">
-			<h1>Portfólio</h1>
-		</div>
-		<div class="itensportfolio">	
-			 <a href="http://www.insightjunior.com.br/"><img src="img/insight.png" alt="Insight Consultoria"/></a>	 
-				<a href="http://www.expresseconsultoria.com.br/"><img src="img/expresse.png" alt="Expresse Consultoria"/> </a>
-				<a href="http://www2.ic.uff.br/~medialab/"><img src="img/medialab.png" alt="Medialab"/> </a>
-				<img src="img/dgr.png" alt="DGR Soluções Contábeis"/>
-        </div>
+    	<div id="portfolio">
+            <div class="tituloportfolio">
+    			<h1>Portfólio</h1>
+    		</div>
+    		<div class="itensportfolio">
+    			<div class="col-md-4">
+                    <a href="http://www.insightjunior.com.br/"><img src="img/insight.png" alt="Insight Consultoria"/></a>
+                </div>
+                <div class="col-md-4">
+    			     <a href="http://www.expresseconsultoria.com.br/"><img src="img/expresse.png" alt="Expresse Consultoria"/> </a>
+    			</div>
+                <div class="col-md-4">
+                    <a href="http://www2.ic.uff.br/~medialab/"><img src="img/medialab.png" alt="Medialab"/> </a>
+    			</div>
+                <div class="col-md-12">
+                    <a href="#"><img src="img/dgr.png" alt="DGR Soluções Contábeis"/></a>
+                </div>
+            </div>
+            <div class="clear"></div>
         </div>
     </section>
     <section>
         <a name="contato"></a>
 		<div class=formcontato>	
-			<form method="POST">
+			<form method="POST" class="formcontato">
                 <h2> Contato </h2>
                 <div class="form-group">
                     <label for ="nome">Nome</label>
@@ -94,20 +101,22 @@
                     <textarea name="corpo" class="form-control" id="mensagem" rows="5" title="Digite sua mensagem" required></textarea>
                 </div>
                 <button type="submit" class="btn btn-default">Enviar</button>
-		    </form>					
+		    </form>				
 		</div>
     </section>
+    <!--Infelizmente essa foi a única forma que eu encontrei de consertar esse problema do footer :/-->
+    <br><br><br><br><br><br><br><br><br>
+    <footer>
+        <div class="footer">
+            <div class="col-md-3">
+                <p><img src="img/mini-logo.png"></p>
+            </div>
+            <div class="col-md-6">
+                <p>IN Junior - Empresa Júnior de Computação da UFF - Todos os direitos reservados</p>
+                <p>Rua Passo da Pátria, 156 - Instituto de Computação - Sala 115-B, Niterói</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </footer>
 </body>
- <footer>
-    <div id="footer">
-    <div class="col-md-3">
-		<p><img src="img/mini-logo.png"></p>
-	</div>
-	<div class="col-md-6">
-		<p>IN Junior - Empresa Júnior de Computação da UFF - Todos os direitos reservados</p>
-		<p>Rua Passo da Pátria, 156 - Instituto de Computação - Sala 115-B, Niterói</p>
-	</div>
-	<div class="clear"></div>
-	</div>
-</footer>
 </html>
