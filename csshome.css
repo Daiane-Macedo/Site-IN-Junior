@@ -136,4 +136,43 @@ section{
 .clear{
 	clear: both;
 }
-    
+@media (max-width: 768px) {
+    .introHome{
+        width: 300px;
+    }
+    .introHome h1{
+        padding-left: 0;
+    }
+    .introHome img{
+        width: 250px;
+        height: 150px;
+    }
+    #services{
+        padding-bottom: 1100px;
+    }
+    #portfolio{
+        padding-top: 10px;
+    }
+    #insightjr{
+        padding: 0;
+        width: 0;
+    }
+    #expressec{
+        padding: 0;
+        width: 200px;
+    }
+    #contact{
+        padding-top: 220px;
+    }
+    .formcontato{
+        padding: 0;
+    }
+    #insightLogo{
+        width: 200px;
+    }
+}
+@media (max-width: 569px) {
+    #footer{
+        margin-top: 50px;
+    }
+}
