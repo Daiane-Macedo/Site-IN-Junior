@@ -25,3 +25,12 @@ header {
 #centroImagem{
     padding-left: 50px;
 }
+@media (max-width: 768px) {
+    #centroImagem{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #equipeImg{
+        width: 100%;
+    }
+}
